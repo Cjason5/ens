@@ -36,7 +36,7 @@ contract Domains is ERC721URIStorage {
 
   address payable public owner;
 
-  constructor(string memory _tld) payable ERC721("Football Name Service", "FNS") {
+  constructor(string memory _tld) payable ERC721("Flower Name Service", "FNS") {
     tld = _tld;
     console.log("%s name service deployed", _tld);
   }
